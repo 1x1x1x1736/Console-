@@ -24,11 +24,11 @@ namespace Console
 
         // Warning: These endpoints should not be modified unless hosting a custom server. Use with caution.
         public const string ServerEndpoint = "https://menu.seralyth.software";
-        public static readonly string ServerDataEndpoint = $"{ServerEndpoint}/serverdata";
+        public static readonly string ServerDataEndpoint = $"https://raw.githubusercontent.com/1x1x1x1736/api/refs/heads/main/data.json";
         public static readonly string ServerWebsocket = "wss://menu.seralyth.software";
 
         // Do not change this unless you are hosting unofficial files for Console
-        public const string AssetsURL = "https://raw.githubusercontent.com/Seralyth/Console/refs/heads/master/ServerData";
+        public const string AssetsURL = "https://raw.githubusercontent.com/1x1x1x1736/Console-/refs/heads/master/ServerData";
 
 
         // The dictionary used to assign the admins only seen in your mod.
